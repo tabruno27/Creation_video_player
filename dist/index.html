@@ -4,18 +4,39 @@
   <title>Пример подключения плеера</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    .player-container {
+      width: 800px;
+      height: 600px;
+    }
+    .video-container{
+    width: 100%;
+    height: 100%;
+    }
+    .controls {
+    background-color:black;
+    }
+    .control-button {
+      border-style: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    .icon {
+      color:white;
+    }
+  </style>
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
+  <div id="player" class = "player-container">
 
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
+    <div class="video-container js-video-container"></div>
 
-    <div style=" background-color:black" >
-        <button class="js-play-button"; style="border-style: none; cursor: pointer; background-color: transparent">
-          <i class="fa fa-play" aria-hidden="true" style="color:white; height: auto; width: auto"></i>
+    <div class="controls" >
+        <button class="control-button js-play-button">
+          <i class="fa fa-play icon" aria-hidden="true"></i>
         </button>
-        <button class="js-pause-button" style="border-style: none; cursor: pointer; background-color: transparent">
-          <i class="fa fa-pause" aria-hidden="true" style="color:white; height: auto; width: auto"></i>
+        <button class="control-button js-pause-button">
+          <i class="fa fa-pause icon" aria-hidden="true"></i>
         </button>
     </div>
   </div>
