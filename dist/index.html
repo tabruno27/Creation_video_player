@@ -14,23 +14,34 @@
     .shadow {
     flex-grow: 1;
     background: #fc0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
    }
     .video-container{
     flex-grow: 10;
     }
     .controls {
     background-color:black;
+    display: flex;
+    flex-direction: row;
+    }
+    .spacer {
+    display: flex;
+    flex-grow: 4;
     }
     .control-button {
+      width: 37px;
+      height: 37px;
       border-style: none;
       cursor: pointer;
+      margin: 0.3%;
       background-color: transparent;
+      font-size: 150%
     }
     .icon {
       color:white;
-      margin: 25%;
-      font-size: 200%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   </style>
 </head>
@@ -51,6 +62,10 @@
         </button>
         <button class="control-button js-mute-button">
           <i class="fa fa-volume-off icon" aria-hidden="true"></i>
+        </button>
+        <div class="spacer"></div>
+        <button class="control-button js-fullscreen-button">
+          <i class="fa fa-expand icon" aria-hidden="true"></i>
         </button>
     </div>
   </div>
