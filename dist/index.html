@@ -9,6 +9,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
   <link rel="manifest" href="favicon/site.webmanifest" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
   <style type="text/css">
     .player-container {
       display: flex;
@@ -43,6 +46,12 @@
       font-size: 20px;
 	  color:white;
     }
+    .timer_block {
+      display: flex;
+      align-items:center;
+      color: white;
+      font-family: 'Roboto';
+    }
   </style>
 </head>
 <body>
@@ -63,11 +72,16 @@
         <button class="control-button js-mute-button">
           <i class="fa fa-volume-off" aria-hidden="true"></i>
         </button>
+        <div class="timer_block">
+           <span class="js-current-time"></span>
+        </div>
         <div class="spacer"></div>
+        <div class="timer_block">
+            <span class="js-duration"></span>
+        </div>
         <button class="control-button js-fullscreen-button">
           <i class="fa fa-expand" aria-hidden="true"></i>
         </button>
-    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
