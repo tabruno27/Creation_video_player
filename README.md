@@ -2,7 +2,7 @@
 ## Описание
 Данный проект демонстрирует, как подключить и настроить видеоплеер на веб-странице с использованием HTML, CSS и JavaScript. Плеер включает базовые элементы управления, такие как воспроизведение, пауза, регулировка громкости и полноэкранный режим.
 
-Демо-версию плеера можно посмотреть **[тут][[(http://localhost:63342/Creation_video_player/dist/index.html?_ijt=9s6lqspkljougre3gglaskrhi6&_ij_reload=RELOAD_ON_SAVE](https://github.com/tabruno27/Creation_video_player/blob/master/dist/index.html)]**
+Демо-версию плеера можно посмотреть **[тут](http://localhost:63342/Creation_video_player/dist/index.html?_ijt=6pvpbbf0tsueam64psaglpdp75&_ij_reload=RELOAD_ON_SAVE)**
 
 ![image](https://github.com/user-attachments/assets/6d10918f-37fc-40d0-8b0e-a783070caecb)
 
