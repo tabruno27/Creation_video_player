@@ -4,7 +4,7 @@
 
 Демо-версию плеера можно посмотреть **[тут](http://localhost:63342/Creation_video_player/dist/index.html?_ijt=9s6lqspkljougre3gglaskrhi6&_ij_reload=RELOAD_ON_SAVE)**
 
-![image](https://github.com/user-attachments/assets/6aa48f6a-c31e-483a-bfcd-90e809e7e563)
+![image](https://github.com/user-attachments/assets/c9ffb5ff-0e3a-470d-b772-bced795923d3)
 
 ## Используемые технологии
 **HTML5:** Основная структура веб-страницы.
