@@ -20,21 +20,25 @@
       height: 600px;
     }
     .shadow {
-    flex-grow: 1;
-    background: #fc0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      flex-grow: 1;
+      background: #fc0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
    }
     .video-container{
-    flex-grow: 15;
+      flex-grow: 15;
     }
     .controls {
-    background-color:black;
-    display: flex;
-    flex-direction: row;
+      background-color:black;
+      display: flex;
+      flex-direction: row;
     }
     .spacer {
-    display: flex;
-    flex-grow: 4;
+      display: flex;
+      flex-grow: 4;
+      margin: 10px;
+      border-radius: 30px;
+      align-self:center;
+      align-items:center;
     }
     .control-button {
       width: 32px;
@@ -52,6 +56,24 @@
       color: white;
       font-family: 'Roboto';
     }
+    .progress-slider {
+      height: 5px;
+      border-radius: 30px;
+      background-color: red;
+    }
+    .dot {;
+      height: 8px;
+      width: 8px;
+      background-color: red;
+      border-radius: 50%;
+      border-style: solid;
+      border-color: white;
+      border-width: 3.5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.9);
+      margin: -20%;
+      margin-left: -5px;
+      display: inline-block;
+}
   </style>
 </head>
 <body>
@@ -67,15 +89,20 @@
           <i class="fa fa-pause" aria-hidden="true"></i>
         </button>
         <button class="control-button js-volume-button">
-          <i class="fa fa-volume-up" aria-hidden="true"></i>
+          <i class="fa fa-volume-off" aria-hidden="true"></i>
         </button>
         <button class="control-button js-mute-button">
-          <i class="fa fa-volume-off" aria-hidden="true"></i>
+          <i class="fa fa-volume-up" aria-hidden="true"></i>
         </button>
         <div class="timer_block">
            <span class="js-current-time"></span>
         </div>
-        <div class="spacer"></div>
+        <div class="spacer js-progress">
+        <div class="progress-slider js-progress-slider"></div>
+        <div>
+        <span class="dot" ></span>
+        </div>
+        </div>
         <div class="timer_block">
             <span class="js-duration"></span>
         </div>
