@@ -4,8 +4,9 @@
 
 Демо-версию плеера можно посмотреть **[тут](http://localhost:63342/Creation_video_player/dist/index.html?_ijt=6pvpbbf0tsueam64psaglpdp75&_ij_reload=RELOAD_ON_SAVE)**
 
+[Открыть видео плеер](http://localhost:63342/Creation_video_player/dist/index.html?_ijt=6pvpbbf0tsueam64psaglpdp75&_ij_reload=RELOAD_ON_SAVE)
 
-http://localhost:63342/Creation_video_player/dist/index.html?_ijt=6pvpbbf0tsueam64psaglpdp75&_ij_reload=RELOAD_ON_SAVE
+
 
 ![image](https://github.com/user-attachments/assets/6d10918f-37fc-40d0-8b0e-a783070caecb)
 
