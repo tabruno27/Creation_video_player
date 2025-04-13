@@ -1,0 +1,74 @@
+.player-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+  }
+  .shadow {
+    flex-grow: 1;
+    background: #fc0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+ }
+  .video-container{
+    flex-grow: 15;
+  }
+  .controls {
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+  }
+  .spacer {
+    display: flex;
+    flex-grow: 4;
+    margin: 10px;
+    border-radius: 30px;
+    align-self:center;
+    align-items:center;
+  }
+  .control-button {
+    width: 32px;
+    height: 37px;
+    border-style: none;
+    cursor: pointer;
+    margin: 0.3%;
+    background-color: transparent;
+    font-size: 20px;
+  color:white;
+  }
+  .control-button:focus {
+    border-style: none;
+  }
+  .timer_block {
+    display: flex;
+    align-items:center;
+    color: white;
+    font-family: 'Roboto';
+  }
+  .progress-slider {
+    height: 5px;
+    border-radius: 30px;
+    background-color: red;
+  }
+  .dot {
+    display: flex;
+    align-items:center;
+    opacity: 0.0;
+    transition-duration: .300s;
+    transition-timing-function: ease-out;
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 3.5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    margin: -20%;
+    margin-left: -5px;
+    display: inline-block;
+  }
+  .animated-btn:hover .dot {
+    opacity: 1.0;
+    transition-duration: .300s;
+    transition-timing-function: ease-in;
+    }
